@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('Getcode'){
             steps{
-                git branch: 'main', url: 'https://github.com/Akshay-c-bhoyar/01-maven-app.git'    
+                git branch: 'main', url: 'https://github.com/Akshay-c-bhoyar/maven-web-app.git'    
             }   
         }
         stage('build'){
