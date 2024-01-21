@@ -4,10 +4,17 @@
   <groupId>in.ashokit</groupId>
   <artifactId>01-maven-web-app</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <name>01-maven-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
+
+   <properties>
+    <sonar.host.url>http://54.200.179.96:9000/</sonar.host.url>
+    <sonar.login>261f56cfbdd15a1fb8f3690e1c6a56930df483f2</sonar.login>
+  </properties>
+
+
+ <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -19,3 +26,5 @@
     <finalName>01-maven-web-app</finalName>
   </build>
 </project>
+
+  
